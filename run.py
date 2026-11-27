@@ -170,7 +170,6 @@ data_module = SimpleNamespace(__file__=__file__, LABEL_ORDER=data_LABEL_ORDER, P
 
 
 # scripts\r2a_protocol.py (inlined; no dependency on the old project)
-"""Check the frozen Round2 source and the saved R2-A configuration."""
 import sys as protocol_sys
 from pathlib import Path as protocol_Path
 protocol_ROOT = EXPERIMENT_DIR
@@ -193,7 +192,6 @@ protocol_module = SimpleNamespace(__file__=__file__, Path=protocol_Path, ROOT=pr
 
 
 # scripts\paper_style\paper_plots.py (inlined; no dependency on the old project)
-"""Paper-style rendering of SAVED Round2 results. No training or graph recomputation."""
 from dataclasses import dataclass as style_dataclass, asdict as style_asdict
 import hashlib as style_hashlib
 import json as style_json
@@ -472,7 +470,6 @@ style_module = SimpleNamespace(__file__=__file__, COLORS=style_COLORS, LAYERS=st
 
 
 # scripts\export_dlpfc.py (inlined; no dependency on the old project)
-"""Export saved R2-A results with the DLPFC tutorial's PAGA grouping and induced graph."""
 import argparse as plot_argparse
 import json as plot_json
 import sys as plot_sys
