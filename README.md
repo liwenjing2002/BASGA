@@ -13,7 +13,7 @@ python -m pip install -r requirements-server.txt
 
 ## DLPFC 151676
 
-Place the original filtered counts, author layer annotations and spatial coordinates in the following layout, or pass their parent directory with `--data-dir`. [Data reference](https://stagate.readthedocs.io/en/latest/T1_DLPFC.html)
+Place the original filtered counts, author layer annotations and spatial coordinates in the following layout, or pass their parent directory with `--data-dir`. 
 
 ```text
 data/
